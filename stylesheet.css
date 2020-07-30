@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, p , a {
+	margin: 0;
+}
+
+body {
+	background-image:url("https://i.pinimg.com/originals/e0/77/ee/e077eec5651d294de5ffd25b340f9e13.jpg");
+	background-size: cover;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;	
+}
+
+/*HEADER*/
+header {
+	width: 80%;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-name {
+	float: left;
+	font-family: 'Lobster', cursive;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.header-name h1 {
+	font-size: 30px;
+}
+
+.header-name h2 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+nav {
+	float: left;
+	padding-left: 80px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	display: block;
+}
+
+.header-list a {
+	font-size: 20px;
+	font-family: 'roboto';
+	padding-right: 20px;
+}
+
+/*PROFILE*/
+.top-wrapper {
+	width: 80%;
+	margin: 50px auto;
+	height: 400px;
+}
+
+.photo {
+	width: 40%;
+	float: left;
+}
+
+.photo img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.greetings {
+	width: 60%;
+	padding: 25px 30px;
+	float: left;
+}
+
+.greeting {
+	font-family: 'Lobster', cursive;
+}
+
+.greeting h1 {
+	font-size: 80px;
+}
+
+.greeting h2 {
+	font-size: 50px;
+}
+
+.bio {
+	padding-top: 20px;
+	font-family: 'Roboto', cursive;
+	text-align: justify;
+	font-size: 18px;
+}
+
+/*SKILLS*/
+.mid-wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 240px;
+}
+
+.heading {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.skill {
+	float: left;
+	width: 12.5%;
+	margin-top: 40px;
+}
+
+.skill-icon {
+	position: relative;
+	text-align: center;
+}
+
+.skill-txt {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+/*EXPERIENCES*/
+.bottom-wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+}
+
+.experiences {
+	width: 90%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
+
+.experience {
+	font-family: 'Roboto', cursive;
+	float: left;
+	width: 30%;
+	margin: 0 1.65%;
+	height: 280px;
+	padding: 20px;
+	border-style: solid none solid none;
+	border-radius: 8px;
+	border-width: 5px;
+}
+
+/*FOOTER*/
+footer {
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.contact {
+	width: 80%;
+	margin-left: 10%;
+	position: absolute;
+}
+
+.row {
+	float: left;
+	display: flex;
+	margin: 30px 0;
+}
+
+.row img {
+	width: 48px;
+	padding-left: 10px;
+}
+
+.email {
+	float: right;
+	padding: 10px;
+	font-family: 'roboto', cursive;
+	margin: 30px 0;
+	font-size: 15px;
+}
