@@ -58,7 +58,7 @@ nav {
 .top-wrapper {
 	width: 80%;
 	margin: 50px auto;
-	height: 400px;
+	height: 450px;
 }
 
 .photo {
@@ -102,6 +102,7 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 	height: 240px;
+	margin-bottom: 50px;
 }
 
 .heading {
@@ -142,14 +143,13 @@ nav {
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
 }
 
 .experience {
 	font-family: 'Roboto', cursive;
 	float: left;
 	width: 30%;
-	margin: 0 1.65%;
+	margin: 10px 1.65%;
 	height: 280px;
 	padding: 20px;
 	border-style: solid none solid none;
@@ -160,17 +160,15 @@ nav {
 /*FOOTER*/
 footer {
 	bottom: 0;
-	width: 100%;
-	height: 100px;
-}
-
-.contact {
 	width: 80%;
-	margin-left: 10%;
-	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;	
+	margin-top: 50px;
 }
 
 .row {
+	position: absolute;
 	float: left;
 	display: flex;
 	margin: 30px 0;
